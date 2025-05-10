@@ -1,1 +1,35 @@
-# Auto detect text files and perform LF normalization
+# Normalize all text files for consistent line endings across OSes
+* text=auto
+
+# Python scripts should always use LF (Unix-style line endings)
+*.py text eol=lf
+
+# Markdown files (README, etc.)
+*.md text eol=lf
+
+# Treat image files as binary if you add any (e.g., icons or assets for UI)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Treat JSON or config files (if you have settings or options)
+*.json text eol=lf
+*.yml text eol=lf
+
+# Environment or config files for secrets, merge-friendly
+*.env merge=union
+*.conf merge=union
+
+# Ignore log files or temporary files in diffs
+*.log text
+*.out text
+
+# Ignore IDE files (VSCode, PyCharm, etc.)
+.vscode/* linguist-generated=true
+.idea/* linguist-generated=true
+
+# Add other generated files like compiled Python files, caches, etc.
+__pycache__/* linguist-generated=true
+*.pyc linguist-generated=true
