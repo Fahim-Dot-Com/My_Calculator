@@ -1,2 +1,29 @@
-# My_Calculator
-# My_Calculator  A simple calculator made for solving equations.  ## Description  My_Calculator is a basic calculator built using Python. It can handle arithmetic expressions and provides an easy interface for solving mathematical equations.  ## Features  - Addition, subtraction, multiplication, division - Solves simple mathematical equations - Console-based interface (or GUI if applicable)  ## Getting Started  ### Prerequisites  - Python installed on your system (Python 3.x)  ### How to Run  1. Clone or download the repository:    ```bash    git clone https://github.com/Fahim-Dot-Com/My_Calculator.git
+# My_Calculator ➕➖
+
+A simple calculator app made in Python for solving basic math equations.
+
+## 🚀 Features
+
+- Supports addition, subtraction, multiplication, and division
+- Command-line input
+- Handles invalid input and division by zero
+
+## 🧠 What I Learned
+
+- Basic math logic in code
+- Working with conditionals and user input
+- Error handling and loops
+
+## 🔧 How to Run
+
+```bash
+python calculator.py
+
+
+## 🔧 How to Run
+
+```bash
+python main.py
+
+
+  1. Clone or download the repository:    ```bash    git clone https://github.com/Fahim-Dot-Com/My_Calculator.git
